@@ -1,4 +1,4 @@
-// the_division_into_categories.cpp: определяет точку входа для консольного приложения.
+//Was created by Maskym Bondar
 //
 
 #include "stdafx.h"
@@ -13,7 +13,7 @@ void getNumbers(long long &N){
 		N /= 10;
 	}
 	for (std::list<int>::iterator it = lst.begin(); it != lst.end(); it++, i++){
-		std::cout << i << " цыфра равна " << *it << std::endl;
+		std::cout << i << " С†С‹С„СЂР° СЂР°РІРЅР° " << *it << std::endl;
 	}
 }
 
